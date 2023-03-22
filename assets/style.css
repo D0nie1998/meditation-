@@ -158,3 +158,27 @@ header {
     text-transform: uppercase;
     font-family: Nerko One;
   }
+
+  /* footer */
+
+  footer {
+    margin-top: 25px;
+    color: rgb(219, 78, 78);
+  }
+  footer ul {
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  
+  }
+  footer ul li {
+    display: inline-block;
+    margin-right: 15%
+  }
+  
+  footer i {
+    font-size: 30px;
+  }
+
+  
