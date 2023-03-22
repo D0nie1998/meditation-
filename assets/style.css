@@ -4,7 +4,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    background: url(../images/background-image.avif)
+  /*  background: url(../images/background-image.avif) */
 }
 
 html {
@@ -132,4 +132,29 @@ header {
     text-transform: uppercase;
     font-family: Nerko One;
     font-size: 2.2rem;
+  }
+
+
+  /* Famous meditators section */
+  .person {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+  }
+  
+  .person-section {
+    width: 30%;
+  }
+  
+  .person-image {
+    width: 33%;
+    border-radius: 100%;
+    height: 50%
+  }
+  .person-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-family: Nerko One;
   }
