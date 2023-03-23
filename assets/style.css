@@ -122,6 +122,24 @@ header {
   text-align: justify;
 }
 
+.about-us-box img {
+  border: 5px solid #00705D;
+}
+
+.about-us-box {
+  width: 50%;
+}
+
+.about-us-row {
+  overflow: hidden;
+}
+
+.about-us-box img {
+  width: 100%;
+  border-radius: 100%;
+  position: right;
+}
+
   /* Types of meditation */
   .image {
     width: 33.33%;
