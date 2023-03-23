@@ -85,26 +85,37 @@ header {
 }
 
 #about {
-  margin: 4rem
+ margin: 8rem;
 }
 
 #about-us {
   margin: 0 4rem 0 4rem;
-  overflow: hidden;
+  overflow: hidden; 
+}
+
+#about-us-box h2 {
+  text-align: center;
 }
 
 .para-1 {
-  grid-column: 2 / 5;
-  grid-row: 2 / 3;
+  margin-left: 3rem;
+  font-size: 100%;
 }
 
 .about-us-box img {
   border: 5px solid cornflowerblue;
-  float: left;
+  
 }
 
 .about-us-box {
-  width: 50%;
+  display: flex;
+  align-items: center;
+    text-align: justify;
+    font-family: Nerko One,;
+    color: rgb(49, 45, 45);
+    font-weight: bold;
+    line-height: 40px; 
+    font-size: 1.5rem;
 }
 
 .about-us-row {
@@ -113,7 +124,7 @@ header {
 
 .about-us-box img {
   display: block;
-    border-radius: 8px;
+    border-radius: 100%;
     max-width: 100%;
     height: 300px;
     width: 500px;
