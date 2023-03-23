@@ -23,6 +23,7 @@ header {
     justify-items: center;
     align-items: center;
     font-family: Nerko One;
+    background-color: cornflowerblue;
   }
   
   nav h1 {
@@ -162,8 +163,10 @@ header {
   /* footer */
 
   footer {
-    margin-top: 25px;
-    color: rgb(219, 78, 78);
+    margin-top: 50px;
+  /*  margin-left: 10rem; */
+    background-color: cornflowerblue;
+    
   }
   footer ul {
     padding-top: 20px;
@@ -181,4 +184,3 @@ header {
     font-size: 30px;
   }
 
-  
