@@ -238,7 +238,7 @@ nav ul li a {
 
   /* about us page */
   .about-page{
-    height: 100vh;
+   /* height: 100vh; */
     width: 100%;
     padding: 90px 0;
     background: #ddd;
@@ -261,16 +261,13 @@ nav ul li a {
   .text h2{
     font-size: 90px;
     font-weight: 600;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   
   }
    h5{
     font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
-  span{
-    color: #4070f4;
+    font-weight: 500 %;
+    margin-bottom: 20px; 
   }
   .text p{
     font-size: 18px;
@@ -293,6 +290,10 @@ nav ul li a {
   .learn:hover{
     background: #000;
     border: 1px solid #4070f4;
+  }
+
+  .data{
+    margin-top: 30px;
   }
 
 
