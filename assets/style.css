@@ -148,10 +148,13 @@ to {
 }
 
 #introduction p {
-  line-height: rem;
-  text-align: justify;
+  line-height: 2rem;
+  text-align: center;
 }
 
+.test{
+  width: 100%
+}
 
 
 
@@ -270,8 +273,8 @@ to {
   
   }
    h5{
-    font-size: 22px;
-    font-weight: 500%;
+    font-size: 28px;
+    font-size: 180%;
     margin-bottom: 20px; 
   }
   .text p{
@@ -449,8 +452,8 @@ to {
   }
   
   footer ul i {
-    font-size: 150%;
-    margin-right: 10px;
+    font-size: 200%;
+    margin-right: 20px;
     padding: 10px;
     color: whitesmoke;
   }
