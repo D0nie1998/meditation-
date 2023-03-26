@@ -11,13 +11,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #ededed;
+  background-color:#ddd;
 }
 /* header section */
 
 header {
   color: black;
-  background-color: whitesmoke
+  background-color: rgba(245, 245, 245, 0.479);
 }
 
 nav {
@@ -106,6 +106,7 @@ nav ul li a {
   height: 500px;
   width: 100%;
   background: url(../images/heroimage.jpg) no-repeat center center;
+  background-size: cover;
 /* zoom effect */
 animation-name: hero-image-zoom;
 animation-duration: 5s;
@@ -138,10 +139,23 @@ to {
   background-color: rgba(119, 119, 119, 0.7);
 }
 
+/* Introduction */
+#introduction {
+  height: 50vh;
+  margin: 4rem;
+}
+
+#introduction p {
+  line-height: rem;
+  text-align: justify;
+}
+
+h1
+
 
   /* Types of meditation */
  
-  #about-section {
+  .types {
     padding-top: 100px;
     padding-bottom: 100px;
     background: radial-gradient(
@@ -149,12 +163,14 @@ to {
       rgba(238, 174, 202, 1) 0%,
       rgba(148, 187, 233, 1) 100%
     );
+    
   }
   #abouts {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     gap: 20%;
+    
   }
   #welcome {
     text-align: center;
