@@ -343,7 +343,22 @@ nav ul li a {
         border: 2px solid rgba(30,85,250,0.47);
         background-color: #fff;
     }
-  
+
+
+    /* sign up form media queries */
+    @media only screen and (max-width: 800px) { 
+     .container {
+      width: 100%;}
+
+     .contact-box {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 20%;
+      }
+
+     }
+
+    
 
 
   /* footer */
