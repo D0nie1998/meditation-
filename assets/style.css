@@ -141,8 +141,10 @@ to {
 
 /* Introduction */
 #introduction {
-  height: 100vh;
+  height: 100%;
   margin: 4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #introduction p {
