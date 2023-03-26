@@ -17,7 +17,7 @@ body {
 
 header {
   color: black;
-  background-color: rgba(245, 245, 245, 0.479);
+  background-color: rgb(245, 245, 245);
 }
 
 nav {
@@ -155,7 +155,7 @@ h1
 
   /* Types of meditation */
  
-  .types {
+  #types {
     padding-top: 100px;
     padding-bottom: 100px;
     background: radial-gradient(
@@ -259,7 +259,7 @@ h1
     justify-content: space-around;
   }
   .text{
-    width: 540px;
+    width: 700px;
   }
   .text h2{
     font-size: 90px;
