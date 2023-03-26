@@ -52,9 +52,10 @@ nav ul li a {
   padding-right: 80px;
 }
   
-  #active {
-    border-bottom: solid 1px #3a3a3a ;
-  }   
+ 
+#list li a:hover {
+  color: #fff;
+}
 
   /* header section media queries */
   @media only screen and (max-width: 800px) {
@@ -243,10 +244,6 @@ nav ul li a {
     padding: 90px 0;
     background: #ddd;
   }
-  .pic{
-    height: auto;
-    width:  302px;
-  }
   .about-me{
     width: 100%;
     max-width: 100%;
@@ -290,10 +287,6 @@ nav ul li a {
   .learn:hover{
     background: #000;
     border: 1px solid #4070f4;
-  }
-
-  .data{
-    margin-top: 30px;
   }
 
 
@@ -421,23 +414,28 @@ nav ul li a {
   /* footer */
 
   footer {
-    margin-top: 5rem;
-  /*  margin-left: 10rem; */
+    height: 10vh;
+    background-color: #3c596b;
+    display: flex;
+    margin-top: 25px;
     
   }
+  
   footer ul {
-    padding-top: 10px;
-    width: 100%;
-    margin-bottom: 10px;
+    list-style: none;
     text-align: center;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: #3c596b;
+    flex-wrap: wrap;
+    align-content: center;
+  }
   
+  footer ul i {
+    font-size: 150%;
+    margin-right: 10px;
+    padding: 10px;
+    color: whitesmoke;
   }
-  footer ul li {
-    display: inline-block;
-    margin-right: 15%
-  }
-  
-  footer i {
-    font-size: 30px;
-  }
-
