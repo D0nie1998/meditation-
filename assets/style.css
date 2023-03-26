@@ -184,6 +184,19 @@ nav ul li a {
     font-size: 2.2rem;
   }
 
+  /* types of meditation media queries */
+
+  @media only screen and (max-width: 800px) {
+    #abouts {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .about {
+      flex: 100%;
+    } 
+  }
+
 
   /* Famous meditators section */
 
@@ -210,6 +223,19 @@ nav ul li a {
     font-family: Nerko One;
   }
 
+  @media  only screen  and (max-width: 800px) {
+    .person {
+      flex-direction: column;
+    }
+    .person-section {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+    
+
+
   /* about us page */
   .about-page{
     height: 100vh;
@@ -222,8 +248,8 @@ nav ul li a {
     width:  302px;
   }
   .about-me{
-    width: 1130px;
-    max-width: 85%;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
