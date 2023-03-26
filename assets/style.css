@@ -57,10 +57,7 @@ nav ul li a {
   }   
 
   /* header section media queries */
-  @media only screen and (max-width: 800px) { 
-    .logo {
-
-    }
+  @media only screen and (max-width: 800px) {
 
     nav {
       flex-direction: column;
@@ -426,7 +423,6 @@ nav ul li a {
   footer {
     margin-top: 5rem;
   /*  margin-left: 10rem; */
-    background-color: cornflowerblue;
     
   }
   footer ul {
