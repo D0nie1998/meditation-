@@ -84,15 +84,6 @@ nav ul li a {
     }
 
   }
-
-  /* heroimage */
-
-  
- /* #hero-outer {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  } */
   
   h2 {
     font-size: 2rem;
@@ -101,7 +92,7 @@ nav ul li a {
     margin-bottom: 2rem;
     color: #75003A;
 }
-
+/* intro */
 #about {
   margin: 8rem
 }
@@ -128,12 +119,12 @@ nav ul li a {
 .about-us-box {
   display: flex;
   align-items: center;
-    text-align: justify;
+  text-align: justify;
     font-family: Nerko One,;
     color: rgb(49, 45, 45);
     line-height: 40px; 
     font-size: 1.5rem;
-}
+} 
 
 .about-us-row {
   overflow: hidden;
@@ -299,6 +290,13 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 20px 100px;
+  }
+
+  #about {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #4070f4;
   }
 
   .container:after{
