@@ -8,6 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #ededed;
+}
 /* header section */
 
 header {
@@ -266,7 +269,7 @@ nav ul li a {
   }
    h5{
     font-size: 22px;
-    font-weight: 500 %;
+    font-weight: 500%;
     margin-bottom: 20px; 
   }
   .text p{
