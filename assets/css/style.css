@@ -154,6 +154,7 @@ to {
 #introduction p {
   line-height: 2rem;
   text-align: center;
+  font-size: 1.9rem;
 }
 
 .test{
@@ -202,7 +203,7 @@ to {
     
 
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 880px) {
     #abouts {
       flex-direction: column;
       justify-content: center;
@@ -254,7 +255,7 @@ to {
 
   /* about us page */
   .about-page{
-   /* height: 100vh; */
+   height: 40vh;
     width: 100%;
     padding: 90px 0;
     background: #ddd;
@@ -268,7 +269,7 @@ to {
     justify-content: space-around;
   }
   .text{
-    width: 700px;
+    width: 80%;
   }
   .text h2{
     font-size: 90px;
