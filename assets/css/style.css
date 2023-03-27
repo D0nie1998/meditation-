@@ -254,6 +254,7 @@ to {
 
 
   /* about us page */
+
   .about-page{
     height: 100%;
     width: 100%;
@@ -306,7 +307,7 @@ to {
     border: 1px solid #4070f4;
   }
 
-  @media  only screen  and (max-width: 800px) {
+  @media  only screen  and (max-width: 880px) {
    text { 
     width: 100%;
   }
@@ -436,8 +437,9 @@ to {
         grid-template-columns: 1fr;
       }
       .left{
-        height: 200px;
+       display: none;
       }
+
 
      }
 
