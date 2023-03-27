@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+
 
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color:#ddd;
+  background-color: #ddd;
 }
+
 /* header section */
 
 header {
@@ -20,7 +24,7 @@ header {
   background-color: rgb(245, 245, 245);
 }
 
-.active{
+.active {
   text-decoration: underline;
 }
 
@@ -51,28 +55,30 @@ nav ul {
   flex-direction: row-reverse;
   list-style-type: none;
 }
+
 nav ul li a {
   color: black;
   font-size: 1.8rem;
   text-decoration: none;
   padding-right: 80px;
 }
-  
- 
+
+
 #list li a:hover {
   color: aquamarine;
 }
 
-  /* header section media queries */
+/* header section media queries */
 
-  
-  h2 {
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #75003A;
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #75003A;
 }
+
 /* intro */
 #intro {
   height: 500px;
@@ -86,21 +92,21 @@ nav ul li a {
   width: 100%;
   background: url(../images/heroimage.jpg) no-repeat center center;
   background-size: cover;
-/* zoom effect */
-animation-name: hero-image-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+  /* zoom effect */
+  animation-name: hero-image-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 /*  level of zoom  */
 @keyframes hero-image-zoom {
-from {
+  from {
     transform: scale(1);
-}
+  }
 
-to {
+  to {
     transform: scale(1.1);
-}
+  }
 }
 
 
@@ -132,352 +138,371 @@ to {
   font-size: 1.9rem;
 }
 
-.test{
+.test {
   width: 100%
 }
 
 
 
-  /* Types of meditation */
- 
-  #types {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: radial-gradient(
-      circle,
+/* Types of meditation */
+
+#types {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: radial-gradient(circle,
       rgba(238, 174, 202, 1) 0%,
-      rgba(148, 187, 233, 1) 100%
-    );
-    
+      rgba(148, 187, 233, 1) 100%);
+
+}
+
+#abouts {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20%;
+
+}
+
+#welcome {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Nerko One;
+  font-size: 3rem;
+}
+
+.about {
+  flex: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: Nerko One;
+  font-size: 2.2rem;
+}
+
+
+
+
+
+
+/* Famous meditators section */
+
+.person {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4%;
+}
+
+.person-section {
+  width: 30%;
+}
+
+.person-image {
+  width: 50%;
+  border-radius: 100%;
+  height: 50%
+}
+
+.person-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-family: Nerko One;
+}
+
+
+
+/* about us page */
+
+.about-page {
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+
+.about-me {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh
+}
+
+.text {
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h2 {
+  font-size: 90px;
+  font-weight: 600;
+  /* margin-bottom: 10px; */
+
+}
+
+h5 {
+  font-size: 28px;
+  font-size: 180%;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.learn {
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.learn:hover {
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+
+/* contact us form */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+#about {
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4070f4;
+}
+
+.container:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url(../images/contact-form-picture.jpg) no-repeat center;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.contact-box {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left {
+  background: url(../images/contact-form-picture.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+h3 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+h3:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #2ecc71;
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+  height: 10vh;
+  background-color: #3c596b;
+  display: flex;
+  margin-top: 25px;
+
+
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  background-color: #3c596b;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+footer ul i {
+  font-size: 200%;
+  margin-right: 20px;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 992px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   }
-  #abouts {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20%;
-    
+
+  nav h1 {
+    font-size: 3.5rem;
   }
-  #welcome {
+
+  nav ul {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  nav ul li a {
+    font-size: 2.1rem;
+  }
+
+  .logo {
     text-align: center;
-    margin-bottom: 50px;
-    font-family: Nerko One;
-    font-size: 3rem;
   }
-  .about {
-    flex: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20px;
+
+  .container {
+    width: 100%;
   }
-  
-  h4 {
-    text-transform: uppercase;
-    font-family: Nerko One;
-    font-size: 2.2rem;
+
+  .container {
+    height: 80vh;
   }
-    
 
+  .contact-box {
+    grid-template-columns: 1fr;
+    ;
+  }
 
- 
+  .left {
+    display: none;
+  }
 
-
-  /* Famous meditators section */
+  text {
+    width: 100%;
+  }
 
   .person {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 4%;
+    flex-direction: column;
   }
-  
+
   .person-section {
-    width: 30%;
-  }
-  
-  .person-image {
-    width: 50%;
-    border-radius: 100%;
-    height: 50%
-  }
-  .person-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    font-family: Nerko One;
-  }
-
-
-
-  /* about us page */
-
-  .about-page{
     width: 100%;
-    padding: 90px 0;
-    background: #ddd;
-  }
-  .about-me{
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80vh
-  }
-  .text{
-    width: 80%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .text h2{
-    font-size: 90px;
-    font-weight: 600;
-    /* margin-bottom: 10px; */
-  
-  }
-   h5{
-    font-size: 28px;
-    font-size: 180%;
-    margin-bottom: 20px; 
-  }
-  .text p{
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 1px;
-  }
-  .data{
-    margin-top: 30px;
-  }
-  .learn{
-    font-size: 18px;
-    background: #4070f4;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    padding: 8px 25px;
-    border-radius: 6px;
-    transition: 0.5s;
-  }
-  .learn:hover{
-    background: #000;
-    border: 1px solid #4070f4;
-  }
-
-
-
-  /* contact us form */
-  .container{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 20px;
-  }
-
-  #about {
-    font-size: 90px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #4070f4;
-  }
-
-  .container:after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: url(../images/contact-form-picture.jpg) no-repeat center;
-    background-size: cover;
-    filter: blur(50px);
-    z-index: -1;
-    }
-
-    .contact-box{
-      max-width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background-color: #fff;
-      box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    }
-
-    .left{
-      background: url(../images/contact-form-picture.jpg) no-repeat center;
-      background-size: cover;
-      height: 100%;
-    }
-    
-    .right{
-      padding: 25px 40px;
-    }
-
-    h3{
-      position: relative;
-      padding: 0 0 10px;
-      margin-bottom: 10px;
-    }
-    
-    h3:after{
-      content: '';
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        height: 4px;
-        width: 50px;
-        border-radius: 2px;
-        background-color: #2ecc71;
-    }
-
-    .field{
-      width: 100%;
-      border: 2px solid rgba(0, 0, 0, 0);
-      outline: none;
-      background-color: rgba(230, 230, 230, 0.6);
-      padding: 0.5rem 1rem;
-      font-size: 1.1rem;
-      margin-bottom: 22px;
-      transition: .3s;
-    }
-    
-    .field:hover{
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    
-    textarea{
-      min-height: 150px;
-    }
-    
-    .btn{
-      width: 100%;
-      padding: 0.5rem 1rem;
-      background-color: #2ecc71;
-      color: #fff;
-      font-size: 1.1rem;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      transition: .3s;
-    }
-    
-    .btn:hover{
-        background-color: #27ae60;
-    }
-    
-    .field:focus{
-        border: 2px solid rgba(30,85,250,0.47);
-        background-color: #fff;
-    }
-
-
-   
-
-
-  /* footer */
-
-  footer {
-    height: 10vh;
-    background-color: #3c596b;
-    display: flex;
-    margin-top: 25px;
-
-    
-  }
-  
-  footer ul {
-    list-style: none;
+    margin-top: 10px;
     text-align: center;
-    display: flex;
-    padding: 0;
-    width: 100%;
+  }
+
+  #abouts {
+    flex-direction: column;
     justify-content: center;
-    background-color: #3c596b;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  
-  footer ul i {
-    font-size: 200%;
-    margin-right: 20px;
-    padding: 10px;
-    color: whitesmoke;
+    text-align: center;
   }
 
-  @media only screen and (max-width: 992px) {
-
-    nav {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      
-    }
-    nav h1 {
-      font-size: 3.5rem;
-    }
-    nav ul {
-      flex-direction: column;
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-    nav ul li {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 40px;
-    }
-    nav ul li a {
-      font-size: 2.1rem;
-    }
-
-    .logo{
-       text-align: center;
-    }
-
-    .container{
-      width: 100%;
-    }
-    .container {
-      height: 80vh;
-    }
-    .contact-box{
-      grid-template-columns: 1fr;
-      ;
-    }
-    .left{
-     display: none;
-    }
-
-    text { 
-      width: 100%;
-    }
-
-    .person {
-      flex-direction: column;
-    }
-    .person-section {
-      width: 100%;
-      margin-top: 10px;
-      text-align: center;
-    }
-
-    #abouts {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    .about {
-      flex: 100%;
-    } 
-
+  .about {
+    flex: 100%;
   }
 
+}
 
-  @media only screen and (max-width: 600px) {
-       .about-me{
-        height: auto;
-       }
+
+@media only screen and (max-width: 600px) {
+  .about-me {
+    height: auto;
   }
+}
