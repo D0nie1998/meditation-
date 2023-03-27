@@ -64,32 +64,7 @@ nav ul li a {
 }
 
   /* header section media queries */
-  @media only screen and (max-width: 800px) {
 
-    nav {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      
-    }
-    nav h1 {
-      font-size: 3.5rem;
-    }
-    nav ul {
-      flex-direction: column;
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-    nav ul li {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 40px;
-    }
-    nav ul li a {
-      font-size: 2.1rem;
-    }
-
-  }
   
   h2 {
     font-size: 2rem;
@@ -203,16 +178,7 @@ to {
     
 
 
-  @media only screen and (max-width: 880px) {
-    #abouts {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    .about {
-      flex: 100%;
-    } 
-  }
+ 
 
 
   /* Famous meditators section */
@@ -240,23 +206,11 @@ to {
     font-family: Nerko One;
   }
 
-  @media  only screen  and (max-width: 800px) {
-    .person {
-      flex-direction: column;
-    }
-    .person-section {
-      width: 100%;
-      margin-top: 10px;
-      text-align: center;
-    }
-  }
-    
 
 
   /* about us page */
 
   .about-page{
-    height: 100%;
     width: 100%;
     padding: 90px 0;
     background: #ddd;
@@ -268,6 +222,7 @@ to {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 80vh
   }
   .text{
     width: 80%;
@@ -307,14 +262,6 @@ to {
     border: 1px solid #4070f4;
   }
 
-  @media  only screen  and (max-width: 880px) {
-   text { 
-    width: 100%;
-  }
-
-   }
-  
-
 
 
   /* contact us form */
@@ -325,7 +272,7 @@ to {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 20px;
   }
 
   #about {
@@ -428,22 +375,7 @@ to {
     }
 
 
-    /* sign up form media queries */
-    @media only screen and (max-width: 880px) { 
-      .container{
-        width: 100%;
-      }
-      .contact-box{
-        grid-template-columns: 1fr;
-      }
-      .left{
-       display: none;
-      }
-
-
-     }
-
-    
+   
 
 
   /* footer */
@@ -474,4 +406,78 @@ to {
     margin-right: 20px;
     padding: 10px;
     color: whitesmoke;
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    nav h1 {
+      font-size: 3.5rem;
+    }
+    nav ul {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    nav ul li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 40px;
+    }
+    nav ul li a {
+      font-size: 2.1rem;
+    }
+
+    .logo{
+       text-align: center;
+    }
+
+    .container{
+      width: 100%;
+    }
+    .container {
+      height: 80vh;
+    }
+    .contact-box{
+      grid-template-columns: 1fr;
+      ;
+    }
+    .left{
+     display: none;
+    }
+
+    text { 
+      width: 100%;
+    }
+
+    .person {
+      flex-direction: column;
+    }
+    .person-section {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    #abouts {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .about {
+      flex: 100%;
+    } 
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+       .about-me{
+        height: auto;
+       }
   }
