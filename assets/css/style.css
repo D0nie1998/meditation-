@@ -199,8 +199,8 @@ to {
     font-family: Nerko One;
     font-size: 2.2rem;
   }
+    
 
-  /* types of meditation media queries */
 
   @media only screen and (max-width: 800px) {
     #abouts {
