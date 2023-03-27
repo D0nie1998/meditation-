@@ -20,6 +20,10 @@ header {
   background-color: rgb(245, 245, 245);
 }
 
+.active{
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -299,6 +303,15 @@ to {
     background: #000;
     border: 1px solid #4070f4;
   }
+
+  @media  only screen  and (max-width: 800px) {
+   text { 
+    width: 100%;
+  }
+
+   }
+  
+
 
 
   /* contact us form */
