@@ -49,6 +49,28 @@ Meditation Mastery is a page that i have created for the purpose of trying to  g
 
 # Main features
 
+## Header
+I designed my website's header to be simple and easy to use, with an intuitive navigation system. This approach can be effective in helping visitors quickly find what they're looking for without getting overwhelmed by a cluttered design. By creating a positive user experience through ease of use and visual clarity, I hope to increase engagement, trust, and conversions.
+
+![Header](/assets/docs/header-read-me.png)
+## Home page
+On my website's homepage, I've included an image of a beautiful home in a peaceful setting, with text that highlights how meditation can be done from the comfort of your own home. I believe that this approach can be effective in conveying a sense of peace and relaxation to visitors, while also showcasing the benefits of a consistent meditation practice.
+
+By emphasizing the idea that meditation can be practiced anywhere, including from the comfort of one's own home, I hope to encourage visitors to explore the different meditation resources available on my site
+
+## Introduction
+
+## Types of meditation
+
+## Famous meditators
+
+## About page
+
+## Contact page 
+
+## Footer
+
+## Future development
 
 
 </br>
