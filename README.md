@@ -134,6 +134,23 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 # Testing
 
+## Validation
+
+### HTML 
+I'm happy to report that after careful testing and validation, all three of the HTML pages on my website are free of errors and issues. I took great care to ensure that all of the code was properly formatted, that all of the tags were closed and nested correctly, and that there were no typos or other errors that could impact the functionality of the site.
+
+By validating my HTML code, I was able to ensure that the pages on my site are fully accessible and compatible with a wide range of devices and web browsers. This means that anyone who visits my site can enjoy a seamless and intuitive experience, without having to worry about technical issues or other problems that could detract from their enjoyment of the content.
+
+### CSS
+I wanted to ensure that my website's CSS code was as error-free as possible, so I decided to use a program called Jigsaw to test it out. Jigsaw is a powerful tool that can help detect any issues with CSS code, and I found it to be an incredibly useful resource in ensuring the quality of my site.
+
+After running my CSS code through Jigsaw, I'm happy to report that there were no errors detected. This means that the formatting and syntax of my CSS is up to standard and that my website should display properly across all browsers and devices.
+![cssvalidation](/assets/docs/css-readme.png)
+
+## Multiple-browser testing
+To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
+
+
 </br>
 </br>
 
