@@ -69,14 +69,38 @@ On my website, I've included a section that explains the four most common types 
 ![types](/assets/docs/types-meditation.png)
 
 ## Famous meditators
+As part of my website, I've included a section that highlights three famous people who meditate and who I personally look up to: Bill Gates, Michael Jordan, and Oprah Winfrey. Each of these individuals has spoken publicly about how meditation has helped them in different ways, and I believe their stories can be inspiring to others who are curious about the practice.
+![meditators](/assets/docs/famous-meditators.png)
 
 ## About page
+On my About page, I've shared a brief personal story about how meditation has affected me in a positive way. Through my own experiences with meditation, I've found that it can help reduce stress and anxiety, improve focus and concentration, and cultivate a greater sense of inner peace and calmness.
+
+I've also included a "Learn More" button on the page, which will take visitors to a free meditation resource that I've created. Through this resource, visitors can access a range of guided meditations and other tools to help them get started with meditation, regardless of their level of experience.
+![aboutpage](/assets/docs/aboutme-readme.png)
 
 ## Contact page 
+On my Contact page, I've provided visitors with the opportunity to send me a message with any questions or comments they may have about meditation or my website. I believe that creating an open and accessible space for dialogue and discussion is an important part of building a supportive community around meditation.
+
+To help create a sense of calm and relaxation on the page, I've also included a photo that is designed to be soothing and peaceful. This photo is intended to represent a key aspect of the meditation practice, which involves cultivating a sense of inner stillness and calmness even amidst the busyness of daily life.
+![contact](/assets/docs/contact-readme.png)
 
 ## Footer
+In the footer of my website, I've included a simple and easy-to-use design that includes links to my social media pages. This provides visitors with another way to get in touch with me and also gives them an opportunity to check out more content related to meditation and mindfulness.
+
+By including links to my social media pages, I hope to create a more dynamic and engaging experience for visitors to my website.
+![footer](/assets/docs/footer-readme.png)
+
+
+
 
 ## Future development
+As my website continues to evolve and grow, there are a number of features and resources that I hope to add in the future. One of the top items on my list is creating videos that provide a more immersive and interactive experience for visitors to the site.
+
+Through these videos, I hope to offer guided meditations and other instructional content that can help people deepen their practice and develop greater mindfulness and awareness in their daily lives. Whether you're a beginner or more experienced meditator, I believe that having access to high-quality instructional content can be incredibly helpful in achieving your meditation goals.
+
+In addition to videos, I'm also interested in creating a blog that provides a space for like-minded people to connect, share ideas, and discuss their experiences with meditation and mindfulness. By building a community of supportive and engaged individuals, I believe that we can create a more dynamic and rewarding meditation practice for everyone involved.
+
+Ultimately, my goal is to continue expanding the range of resources and tools available on my website, so that everyone who is interested in meditation has access to the information and support they need to succeed. Whether you're just starting out or have been practicing for years, I believe that there is always something new to learn and discover when it comes to meditation and mindfulness, and I look forward to continuing this journey with you.
 
 
 </br>
