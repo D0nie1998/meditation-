@@ -204,8 +204,10 @@ I used favicon.ico to create the favicon used in this website.
 
 ### Code
 [Net Ninja](https://www.youtube.com/@NetNinja) used his tutorials to further my knowledge on media queries, header and footer design.
-Love running - for the home page and animation idea for the home page picture
-freshworks - for contact us page idea
+
+Love running sample project - for the home page and animation idea for the home page picture
+
+Freshworks - for contact us page idea
 
 ### Information 
 [meditation information](https://www.news-medical.net/health/Meditation-History.aspx) for the information on meditation and its history
