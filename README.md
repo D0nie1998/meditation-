@@ -18,24 +18,24 @@ Meditation Mastery is a page that i have created for the purpose of trying to  g
 <br />
 <br />
 
-## User Experience (UX)
+# User Experience (UX)
 
-### User Stories
+## User Stories
 
-#### Client Goals
+### Client Goals
 
 * To be able to view the site on a range of device sizes.
 * To make it easy for potential members to find out what meditation mastery is and how to take part.
 * To give the readers the must up to date information and become a credible source of information
 * To allow people to be able to contact the pageto ask further questions or with book recommendations etc.
 
-#### First Time Visitor Goals
+### First Time Visitor Goals
 
 * I want to find out what is meditation mastery and how I can take part.
 * I want to be able to navigate the site easily to find information.
 * I want to be able to find out what meditation is.
 
-#### Returning Visitor Goals
+### Returning Visitor Goals
 
 * 
 * I want to be able to easily contact meditation mastery with questions I might have.
@@ -47,20 +47,21 @@ Meditation Mastery is a page that i have created for the purpose of trying to  g
 </br>
 </br>
 
-## Main features
+# Main features
+
 
 
 </br>
 </br>
 
 
-## Technologies 
+# Technologies 
 
-### Languages Used
+## Languages Used
 
 HTML and CSS were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 
 Git - For version control.
@@ -79,12 +80,12 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 </br>
 </br>
 
-## Testing
+# Testing
 
 </br>
 </br>
 
-## Deployment
+# Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
 1. In the project repository, navigate to the settings tab.
 2. Select the pages tab from the left hand menu.
@@ -102,27 +103,27 @@ Live link is available here [https://d0nie1998.github.io/meditation-/index.html]
 </br>
 </br>
 
-## Credits
+# Credits
 
-### Content
+## Content
 
 
-#### Images
+### Images
 [pinterest](https://www.pinterest.ie/)for  all the photos used in the page
 I used favicon.ico to create the favicon used in this website.
 
-#### Information
+### Information
 [Net Ninja](https://www.youtube.com/@NetNinja) used his tutorials to further my knowledge on media queries, header and footer design.
 
 
-### Acknowledgements
+## Acknowledgements
 
-#### People
+### People
 I want to take a moment to express my heartfelt gratitude to my family and friends. Their unwavering support throughout this process has been truly invaluable. Without their encouragement and belief in me, I would not have been able to reach this point. I am grateful to have such wonderful people in my life.
 
 Additionally, I would like to extend a special thank you to my mentor, Jubril. Your guidance and expertise have been instrumental in my success. Your dedication to my growth and development has not gone unnoticed, and I am incredibly grateful for your presence in my life. Thank you for your unwavering support and encouragement.
 
-## Code Institute
+### Code Institute
 I just wanted to express my appreciation for the lessons I learned from Code Institute. Your program provided me with a comprehensive education in coding and technology, and I am grateful for the knowledge and skills I acquired.
 
 
