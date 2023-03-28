@@ -3,7 +3,7 @@
 Meditation Mastery is a page that i have created for the purpose of trying to  get as much people as people as possible educated in the incredible amazing benefits of meditation.
 
 ![Am i responsive](/assets/docs/amiresponsive.png)
-![Meditation Mastery Website](https://d0nie1998.github.io/meditation-/index.html)
+[Meditation Mastery Website](https://d0nie1998.github.io/meditation-/index.html)
 <br/>
 <br/>
 
@@ -146,6 +146,13 @@ I wanted to ensure that my website's CSS code was as error-free as possible, so 
 
 After running my CSS code through Jigsaw, I'm happy to report that there were no errors detected. This means that the formatting and syntax of my CSS is up to standard and that my website should display properly across all browsers and devices.
 ![cssvalidation](/assets/docs/css-readme.png)
+
+## Error
+
+## Bugs
+
+## Lighthouse
+
 
 ## Multiple-browser testing
 To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
