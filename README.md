@@ -3,7 +3,7 @@
 Meditation Mastery is a page that i have created for the purpose of trying to  get as much people as people as possible educated in the incredible amazing benefits of meditation.
 
 ![Am i responsive](/assets/docs/amiresponsive.png)
-![Meditation Mastery Website](assets/images/bullybookclubwebsite.png)
+![Meditation Mastery Website](https://d0nie1998.github.io/meditation-/index.html)
 <br/>
 <br/>
 
@@ -47,8 +47,14 @@ Meditation Mastery is a page that i have created for the purpose of trying to  g
 </br>
 </br>
 
+## Main features
 
-## Technologies Used
+
+</br>
+</br>
+
+
+## Technologies 
 
 ### Languages Used
 
@@ -73,7 +79,12 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 </br>
 </br>
 
-# Deployment
+## Testing
+
+</br>
+</br>
+
+## Deployment
 I deployed the site on GitHub pages. The following steps were used to deploy:
 1. In the project repository, navigate to the settings tab.
 2. Select the pages tab from the left hand menu.
@@ -87,6 +98,10 @@ Steps to clone this project from GitHub:
 2. Select download Zip from the clone menu.
 3. Once zip file has been downloaded, unzip the file.
 4. Save the file and run it locally
-Live link is available here [https://d0nie1998.github.io/Fortnite-Quiz/]
+Live link is available here [https://d0nie1998.github.io/meditation-/index.html]
+</br>
+</br>
+
+## Credits
 </br>
 </br>
