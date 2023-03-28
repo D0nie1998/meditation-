@@ -103,5 +103,30 @@ Live link is available here [https://d0nie1998.github.io/meditation-/index.html]
 </br>
 
 ## Credits
+
+### Content
+
+
+#### Images
+[pinterest](https://www.pinterest.ie/)for  all the photos used in the page
+I used favicon.ico to create the favicon used in this website.
+
+#### Information
+[Net Ninja](https://www.youtube.com/@NetNinja) used his tutorials to further my knowledge on media queries, header and footer design.
+
+
+### Acknowledgements
+
+#### People
+I want to take a moment to express my heartfelt gratitude to my family and friends. Their unwavering support throughout this process has been truly invaluable. Without their encouragement and belief in me, I would not have been able to reach this point. I am grateful to have such wonderful people in my life.
+
+Additionally, I would like to extend a special thank you to my mentor, Jubril. Your guidance and expertise have been instrumental in my success. Your dedication to my growth and development has not gone unnoticed, and I am incredibly grateful for your presence in my life. Thank you for your unwavering support and encouragement.
+
+## Code Institute
+I just wanted to express my appreciation for the lessons I learned from Code Institute. Your program provided me with a comprehensive education in coding and technology, and I am grateful for the knowledge and skills I acquired.
+
+
+
+
 </br>
 </br>
