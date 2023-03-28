@@ -57,10 +57,16 @@ I designed my website's header to be simple and easy to use, with an intuitive n
 On my website's homepage, I've included an image of a beautiful home in a peaceful setting, with text that highlights how meditation can be done from the comfort of your own home. I believe that this approach can be effective in conveying a sense of peace and relaxation to visitors, while also showcasing the benefits of a consistent meditation practice.
 
 By emphasizing the idea that meditation can be practiced anywhere, including from the comfort of one's own home, I hope to encourage visitors to explore the different meditation resources available on my site
+![homepage](/assets/docs/image-homepage-readme.png)
 
 ## Introduction
+As you browse through my website, you'll notice that I've included a quick and easy-to-understand explanation of what meditation is. With a simple design and easy-to-read font, I've aimed to make this information accessible to everyone, regardless of their level of familiarity with meditation.
+![introduction](/assets/docs/intro-readme.png)
+
 
 ## Types of meditation
+On my website, I've included a section that explains the four most common types of meditation in a simple and easy-to-understand way. To help create a sense of peace and relaxation, I've used a nice, chill background color that can help induce feelings of happiness and calmness.
+![types](/assets/docs/types-meditation.png)
 
 ## Famous meditators
 
