@@ -148,11 +148,25 @@ After running my CSS code through Jigsaw, I'm happy to report that there were no
 ![cssvalidation](/assets/docs/css-readme.png)
 
 ## Error
+I encountered an issue with my media queries. I was trying to adjust the layout of my page for different screen sizes, but I was struggling to fill out the page in a way that looked good and balanced.When I tried to adjust the layout by adding more content, I noticed that the footer would appear in the middle of the page on certain screen sizes, which was not ideal. I tried a few different solutions, but nothing seemed to work.
+
+After doing some research and consulting with some online resources, I realized that the issue was related to the way I was structuring my HTML and CSS. I needed to make sure that my HTML was structured in a way that allowed for a fluid layout, and that my CSS was properly organized and optimized for different screen sizes.
+
+To fix the issue, I first restructured my HTML to create a more flexible layout, and then adjusted my CSS to properly handle different screen sizes. I also made sure to use responsive design techniques, such as using percentage-based units for widths and heights, and adding breakpoints for different screen sizes.
+
+After making these changes, I was able to properly fill out my page and ensure that the footer remained at the bottom of the page on all screen sizes. Overall, I learned that proper HTML structure and optimized CSS are key to creating a responsive and balanced layout for a web development project.
+
 
 ## Bugs
 
-## Lighthouse
+As I was working on my web development project, I took care to thoroughly test my code and ensure that it was free of bugs and errors. I ran various tests on different browsers and devices to make sure that my website was functioning properly and that all features were working as intended.
 
+After conducting my tests, I was pleased to discover that there were no bugs or errors present in my code. All of the features were working as intended and the website was functioning smoothly on different browsers and devices.
+
+Of course, this doesn't mean that my website was perfect or couldn't be improved in some way. There's always room for optimization and further development, but the absence of bugs and errors was a good indication that my code was sound and that I had taken the necessary steps to ensure that my website was functioning as intended.
+
+## Lighthouse
+I used the Chrome extension Lighthouse to test the performance, accessibility, and best practices of my web page. The results were outstanding as Lighthouse gave my page a 80% pass rate in all departments. This showed that the page was well optimized for speed, user experience, and accessibility, which are all important factors for creating a successful website. Lighthouse provided a comprehensive report of the testing, allowing me to identify any potential issues and make improvements where necessary. I was very satisfied with the results and confident that my website was ready to provide a positive user experience to all visitors.
 
 ## Multiple-browser testing
 To ensure the best possible user experience, I tested the website on multiple browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. I was pleased to find that the website displayed correctly on all of these browsers and there were no issues with the responsive design. This rigorous testing process ensured that the website could be accessed and used by a wide range of users, regardless of their preferred browser.
