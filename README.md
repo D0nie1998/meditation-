@@ -202,8 +202,14 @@ Live link is available here [https://d0nie1998.github.io/meditation-/index.html]
 [pinterest](https://www.pinterest.ie/)for  all the photos used in the page
 I used favicon.ico to create the favicon used in this website.
 
-### Information
+### Code
 [Net Ninja](https://www.youtube.com/@NetNinja) used his tutorials to further my knowledge on media queries, header and footer design.
+Love running - for the home page and animation idea for the home page picture
+freshworks - for contact us page idea
+
+### Information 
+[meditation information](https://www.news-medical.net/health/Meditation-History.aspx) for the information on meditation and its history
+
 
 
 ## Acknowledgements
